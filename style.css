@@ -1,4 +1,4 @@
- * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,13 +7,12 @@
 body {
   position: relative;
   background-color: darkolivegreen;
+  width: 100%;
 }
 
 .submit-form {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translateX(-50%) translateY(50%);
+  /* position: absolute; */
+  margin: 0 gauto;
   width: 400px;
   background-color: beige;
   padding: 50px 30px;
@@ -65,7 +64,8 @@ body {
 
 .input-wrapper-marital label {
   color: chocolate;
-  font-weight: 600;}
+  font-weight: 600;
+}
 
 .button-wrapper {
   margin-top: 10px;
