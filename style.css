@@ -1,0 +1,82 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  background-color: darkolivegreen;
+}
+
+.submit-form {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(50%);
+  width: 400px;
+  background-color: beige;
+  padding: 50px 30px;
+  box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin-bottom: 8px;
+}
+
+.h5 {
+  color: brown;
+  outline-style: none;
+  border: none;
+}
+
+.input-wrapper label {
+  color: chocolate;
+  font-weight: 600;
+}
+
+.input-wrapper input {
+  padding: 6px 5px;
+  border-radius: 7px;
+  border-color: burlywood;
+  color: brown;
+}
+
+.input-wrapper input:focus {
+  outline-color: brown;
+  outline-style: dashed;
+  border: none;
+}
+
+.input-wrapper input::placeholder {
+  color: gray;
+  color: #555;
+}
+
+.input-wrapper-marital {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 8px;
+}
+
+.input-wrapper-marital label {
+  color: chocolate;
+  font-weight: 600;}
+
+.button-wrapper {
+  margin-top: 10px;
+}
+
+.button-wrapper button {
+  width: 30%;
+  padding: 6px 10px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  background-color: brown;
+}
